@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2017%2F12%2F02%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new &quot;My New Post&quot; More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[基于Hexo和Github搭建博客]]></title>
+    <url>%2F2016%2F11%2F09%2F%E5%BF%83%E6%83%85%E6%97%A5%E8%AE%B0%2F</url>
+    <content type="text"><![CDATA[我晕终于把个人博格搭建好了，又累又开心baidu 代码效果 12345678910#box &#123;width:100px&#125;&lt;head&gt;&lt;/head&gt;&lt;script&gt; var a = 10,b=20; var box = document.getElementById("box"); function()&#123; alert('a') &#125;&lt;/script&gt;]]></content>
+      <categories>
+        <category>随笔</category>
+      </categories>
+      <tags>
+        <tag>日记</tag>
+      </tags>
+  </entry>
+</search>
