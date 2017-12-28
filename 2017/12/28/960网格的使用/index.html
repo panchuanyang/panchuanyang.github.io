@@ -101,7 +101,7 @@
 <meta property="og:site_name" content="开心笑笑&#39;s Blog">
 <meta property="og:description" content="本教程将解释这个框架的基本原理，这样你就可以用960来快速进入开发。">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-12-28T12:55:02.280Z">
+<meta property="og:updated_time" content="2017-12-28T13:46:36.907Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="960网格的使用">
 <meta name="twitter:description" content="本教程将解释这个框架的基本原理，这样你就可以用960来快速进入开发。">
@@ -388,7 +388,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  1,297
+                  1,370
                 </span>
               
 
@@ -426,6 +426,7 @@
 
       
         <p>本教程将解释这个框架的基本原理，这样你就可以用960来快速进入开发。<br><a id="more"></a><br><strong>基本原理</strong><br>你必须知道一些基本原理来“学习这个框架是如何工作的”。你可以通过实验（或者是用firebug）来学习它，不过我也将会在这里为你介绍它。让我们开始吧。</p>
+<p><strong>960gs样式说明</strong><br><figure class="highlight dts"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="symbol">container_x:</span>容器样式，x列</span><br><span class="line"><span class="symbol">grid_x:</span>每列宽度</span><br><span class="line">alpha：用于清除左边<span class="number">10</span>px的margin</span><br><span class="line">omega：用于清除右边<span class="number">10</span>px的margin</span><br><span class="line">prefix_xx：左补空</span><br><span class="line">suffix_xx：右补空</span><br><span class="line">clear或<span class="params">&lt;hr/&gt;</span>：重新开始（官方在使用hr）</span><br><span class="line"><span class="symbol">push_x:</span>左偏移</span><br><span class="line"><span class="symbol">pull_x:</span>右偏移</span><br></pre></td></tr></table></figure></p>
 <p><strong>不要编辑960.css文件</strong><br>首先是一个小提示：不要编辑960.css文件，否则，将来你将不能更新这个框架。因为尽管我们需要布局我们的HTML，我们将创建一个独立的CSS文件。</p>
 <p><strong>加载网格</strong><br>因为我们可以使用一个外部文件的CSS代码，我们必须在我们的HTML网站中加载它们，我们可以通过以下代码来实现：<br><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;link <span class="attribute">rel</span>=<span class="string">"stylesheet"</span> <span class="attribute">type</span>=<span class="string">"text/css"</span> <span class="attribute">media</span>=<span class="string">"all"</span> <span class="attribute">href</span>=<span class="string">"path/to/960/reset.css"</span> /&gt;</span><br><span class="line"></span><br><span class="line">&lt;link <span class="attribute">rel</span>=<span class="string">"stylesheet"</span> <span class="attribute">type</span>=<span class="string">"text/css"</span> <span class="attribute">media</span>=<span class="string">"all"</span> <span class="attribute">href</span>=<span class="string">"path/to/960/960.css"</span> /&gt;</span><br><span class="line"></span><br><span class="line">&lt;link <span class="attribute">rel</span>=<span class="string">"stylesheet"</span> <span class="attribute">type</span>=<span class="string">"text/css"</span> <span class="attribute">media</span>=<span class="string">"all"</span> <span class="attribute">href</span>=<span class="string">"path/to/960/text.css"</span> /&gt;</span><br></pre></td></tr></table></figure></p>
 <p>这些做好了之后，我们必须添加我们自己的CSS文件。例如，你可以叫这个文件为style.css或site.css或者其它任何名字。用下面代码引用这个文件：<br><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;link <span class="attribute">rel</span>=<span class="string">"stylesheet"</span> <span class="attribute">type</span>=<span class="string">"text/css"</span> <span class="attribute">media</span>=<span class="string">"all"</span> <span class="attribute">href</span>=<span class="string">"path/to/style.css"</span> /&gt;</span><br></pre></td></tr></table></figure></p>
@@ -660,7 +661,7 @@
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">6.4k</span>
+    <span title="Site words total count">6.5k</span>
   
 </div>
 
